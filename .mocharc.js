@@ -1,9 +1,5 @@
 module.exports = {
-  reporter: 'node_modules/mochawesome',
-  'reporter-option': [
-      'overwrite=true',
-      'reportTitle=My\ Custom\ Title',
-      'showPassed=false'
-  ],
+  reporter: 'mocha-multi-reporters',
+  'reporter-option': 'configFile=reporter.config.json',
   timeout: 5000
 };
