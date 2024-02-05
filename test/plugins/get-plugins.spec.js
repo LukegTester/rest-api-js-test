@@ -2,7 +2,7 @@ const { expect, requestV2 } = require("../../config")
 
 
 describe("/GET plugins", function(){
-    it("Should GET plugins when user is valid JWT authorised", async function(){
+    it("Should GET plugins when user is correctly JWT authorised", async function(){
         // arrange: 
         const email = "user@test.com"
         const password = "test123"
