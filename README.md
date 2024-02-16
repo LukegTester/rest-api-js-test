@@ -3,8 +3,9 @@ Welcome to my REST API Javascript test repository.
 All tests here were written by me in my REST API Testing course from company jaktestowac.pl as homework tasks.
 Web page unders API tests : https://planet-deadpan-tortoise.glitch.me/
 
-****************** PLEASE NOTE THAT SERVICE GLITCH.ME HIBERNATE WEBSITE AFTER ABOUT 15 MINUTES IF NOT USED ******************
-****************** TO RUN THIS TEST SUITE YOU HAVE TO MANUALY GO TO THIS WEBSITE TO AWAKE SERVER ****************************
+******** PLEASE NOTE THAT SERVICE GLITCH.ME HIBERNATE WEBSITE AFTER ABOUT 15 MINUTES IF NOT USED *****
+
+******** TO RUN THIS TEST SUITE YOU HAVE TO MANUALY GO TO THIS WEBSITE TO AWAKE SERVER ***************
 
 To run this code you can simply pull this repository to your local storage, open this project with Visual Studio Code.
 
