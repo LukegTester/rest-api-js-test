@@ -12,4 +12,4 @@ To run this code you can simply pull this repository to your local storage, open
 1. Open command line in VS Code and perform "npm i" to install all neccesary modules.
 You can see witch modules are necessary in package.json file under "Dependencies" 
 2. If all modules are installed now you can run my tests. Note that if you did not awaken website manualy 1st test run will result in timeout
-3. To run test you can run in terminal command "npm run testAll" 
+3. To run test you have to open terminal and type command "npm run testAll" - if 1st test run timetout, retry again ( due to server hibernate)
