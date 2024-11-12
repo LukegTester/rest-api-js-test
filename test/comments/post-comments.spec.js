@@ -22,7 +22,7 @@ describe("/POST comments", function(){
         // act:
         const response = await request.post('/comments').set(headers).send(payload)
 
-        // asert:
+        // assert:
         expect(response.statusCode).to.be.equal(403, `Assert failed on response ${JSON.stringify(response.body)}`)
 
         const getCommentsAfter = await request.get('/comments').set('User-agent','Chrome')
@@ -56,7 +56,7 @@ describe("/POST comments", function(){
         // act:
         const response = await request.post('/comments').set(headers).send(payload)
 
-        // asert:
+        // assert:
         expect(response.statusCode).to.be.equal(201,
              `Assert failed on response ${JSON.stringify(response.body)}`)
 

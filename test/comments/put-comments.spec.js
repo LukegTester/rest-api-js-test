@@ -7,8 +7,6 @@ describe("/PUT comments", function(){
         const articleId = getCommentsBefore.body[1].article_id
         const userId = getCommentsBefore.body[1].user_id
         const commentId = getCommentsBefore.body[1].id
-        console.log("article ID: ", articleId)
-        console.log("comment ID: ", commentId)
         
         const payload = {    
                 "article_id": articleId,
@@ -32,7 +30,7 @@ describe("/PUT comments", function(){
         // act:
         const response = await request.put(`/comments/${commentId}`).set(headers).send(payload)
 
-        // asert:
+        // assert:
         expect(response.statusCode).to.be.equal(200,
              `Assert failed on response ${JSON.stringify(response.body)}`)
 
